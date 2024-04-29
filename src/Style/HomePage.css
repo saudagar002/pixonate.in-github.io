@@ -1,0 +1,40 @@
+.carousel-image {
+  height: 850px; /* Default height for larger screens */
+  
+}
+
+@media (max-width: 768px) {
+  .carousel-image {
+    height: 400px; /* Adjust height for medium screens */
+  }
+}
+
+@media (max-width: 576px) {
+  .carousel-image {
+    height: 300px; /* Adjust height for small screens */
+  }
+}
+
+/* Styles for h1 tag */
+.carousel-title {
+  font-size: 2.5rem; /* Default font size */
+  color: black; /* Default color */
+  font-weight: 900;
+  background-color: aliceblue;
+}
+
+/* Styles for h5 tag */
+.carousel-subtitle {
+  font-size: 2rem; /* Default font size */
+  color: #241313; /* Default color */
+  font-weight: 700;
+  background-color: aliceblue;
+}
+
+
+/* carousel.css */
+
+.carousel-indicators {
+  background-color: #333; /* Add your desired background color here */
+  color: #333;
+}

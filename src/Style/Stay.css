@@ -1,0 +1,135 @@
+/* LeaveMessage.css */
+.leave-message-container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-image: url(/public/Banner-4.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+h2 {
+  text-align: center;
+  color:white ;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+textarea {
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  resize: vertical;
+}
+
+button {
+  padding: 10px;
+  background-color: #3498db;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #2980b9;
+}
+
+/* StayTuned.css */
+.stay-tuned-container {
+  background-color: #002d62;
+  /* Background color for the entire page */
+  padding: 20px;
+  text-align: center;
+  margin-top: 2cm;
+  margin-bottom: 2cm;
+}
+
+h2.get-info {
+  color: white;
+}
+
+p {
+  color: #777;
+  margin-bottom: 20px;
+}
+
+.contact-info {
+  display: flex;
+  justify-content: space-around;
+  height: 3cm;
+}
+
+.info-item {
+  text-align: left;
+  color: #7498b1;
+
+  font: 600;
+  size: 2px;
+}
+
+img {
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+}
+
+.get-info {
+
+  color: #fff !important
+}
+
+/* Media Queries */
+@media screen and (max-width: 768px) {
+  .leave-message-container {
+    max-width: 100%;
+    padding: 10px;
+  }
+
+  h2 {
+    font-size: 1.5rem;
+  }
+
+  .stay-tuned-container {
+    padding: 10px;
+    margin-top: 1cm;
+    margin-bottom: 1cm;
+  }
+}
+
+/* Media Queries */
+@media screen and (max-width: 768px) {
+  .stay-tuned-container {
+    padding: 10px;
+    margin-top: 1cm;
+    margin-bottom: 1cm;
+  }
+
+  .contact-info {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .info-item {
+    text-align: center;
+    margin-bottom: 10px;
+  }
+
+  .info-item p {
+    margin-bottom: 0; /* Remove bottom margin to prevent extra space */
+    color: black !important;
+    font: 500;
+  }
+}
+
+
+.stay-tuned-text P{
+
+  color: #ddd !important;
+}

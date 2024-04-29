@@ -1,0 +1,90 @@
+/* LeaveMessage.css */
+/* ... (previous styles) */
+
+.form-group {
+  margin-bottom: 15px;
+  /* margin-top: 1cm; */
+  background-image: none !important;
+  margin-top: 10cm;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+/* ... (previous styles) */
+/* LeaveMessage.css */
+/* ... (previous styles) */
+
+.form-group {
+  margin-bottom: 15px;
+  margin-top: 1cm;
+  /* Remove this line if not needed */
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+/* ... (previous styles) */
+.leave-message-container h2 {
+
+  color: black;
+  background-color: #ddd;
+  width: 11CM;
+  margin-left: 2CM;
+  border-radius: 5px;
+}
+
+
+
+
+/* Base styling for the h2 tag in the leave message container */
+.leave-message-container h2 {
+  color: black;
+  background-color: #ddd;
+  border-radius: 5px;
+  padding: 10px; /* Consistent padding for spacing */
+  text-align: center; /* Center text for better alignment */
+  margin: 10px; /* Avoid fixed margins */
+  font-size: 1.5em; /* Adjust as needed for base size */
+}
+
+/* Media query for smaller screens */
+@media (max-width: 768px) {
+  .leave-message-container h2 {
+    font-size: 1.2em; /* Slightly smaller text for smaller screens */
+    margin: 5px; /* Reduce margins to avoid excess space */
+    padding: 8px; /* Adjust padding to maintain consistent layout */
+  }
+}
+
+/* Further adjustment for even smaller screens */
+@media (max-width: 480px) {
+  .leave-message-container h2 {
+    font-size: 1em; /* Smaller font size for compact screens */
+    padding: 5px; /* Reduce padding for tight spaces */
+  }
+}

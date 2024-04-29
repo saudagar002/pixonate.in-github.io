@@ -1,0 +1,100 @@
+.container {
+  background-color: #002d62;
+  padding: 50px;
+  margin: 4cm 0;
+  width: 100%;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.banner-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.banner-text {
+  text-align: center;
+}
+
+.banner-text h4 {
+  color: white;
+  font-size: 18px;
+  margin-bottom: 10px;
+  color: #000;
+}
+
+.banner-text h1 {
+  font-size: 32px;
+  color: white;
+  margin-bottom: 15px;
+}
+
+.banner-text h6 {
+  font-size: 18px;
+  color: white;
+  margin-bottom: 30px;
+  color: #000;
+}
+
+.address-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
+  width: 100%;
+  max-width: 800px;
+}
+
+.address {
+  display: flex;
+  align-items: center;
+  color: white;
+}
+
+.icon {
+  margin-right: 15px;
+}
+
+.email-icon, .phone-icon {
+  font-size: 24px;
+  margin-right: 10px;
+}
+
+@media (max-width: 768px) {
+  .container {
+    padding: 30px;
+    margin: 2cm 0;
+  }
+
+  .banner-text h1 {
+    font-size: 24px;
+  }
+
+  .banner-text h6 {
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+
+  .address-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .address {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    
+  }
+
+  .icon {
+    margin-right: 0;
+    margin-bottom: 10px;
+    
+  }
+
+
+
+}

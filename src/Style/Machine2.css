@@ -1,0 +1,231 @@
+/* Support container styling */
+.support-container {
+  background-color: #f0f0f0;
+  padding: 20px;
+  margin-top: 2cm;
+  height: auto;
+  overflow: hidden;
+}
+
+/* Support header styling */
+.support-header {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.support-header h1 {
+  font-size: 32px;
+}
+
+/* Support section styling */
+.support-section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+/* Right-side styling */
+.right-side {
+  flex: 1;
+  padding: 20px;
+}
+
+.right-side p {
+  font-size: 25px;
+  color: #666;
+}
+
+/* Highlighted paragraph styling */
+.highlighted-p {
+  font-weight: bold;
+  font-size: 20px;
+  color: #333;
+  border: 1px solid #ccc;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+  transition: box-shadow 0.3s ease;
+}
+
+.highlighted-p:hover {
+  box-shadow: 0 0 10px black;
+  border: 1px solid black;
+}
+
+/* Icon styling */
+.fa-solid.fa-arrow-right-from-bracket {
+  margin-right: 10px;
+}
+
+/* Service items grid */
+.service-items {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+}
+
+.service-item {
+  display: flex;
+  align-items: center;
+  font-size: 16px;
+  background-color: white;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s ease;
+}
+
+.service-item:hover {
+  box-shadow: 0 0 10px black;
+  border: 1px solid black;
+}
+
+.service-item i {
+  margin-right: 10px;
+}
+
+/* Left-side styling */
+.left-side {
+  flex: 1;
+  padding: 20px;
+}
+
+/* Image styling */
+.Dev-2 {
+  max-width: 100%;
+  margin-right: 5%;
+}
+
+.Dev-2 img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Responsive design for smaller screens */
+@media (max-width: 768px) {
+  .support-section {
+    flex-direction: column; /* Stack vertically on smaller screens */
+  }
+
+  .right-side, .left-side {
+    padding: 10px; /* Adjust padding */
+  }
+
+  .highlighted-p {
+    font-size: 16px; /* Smaller font on mobile */
+  }
+
+  .service-items {
+    grid-template-columns: 1fr; /* Single column on smaller screens */
+  }
+
+  .service-item {
+    flex-direction: column; /* Stack icon and text vertically */
+  }
+
+  .Dev-2 img {
+    width: 100%; /* Ensure full width on smaller screens */
+  }
+}
+
+
+
+/* General container styling */
+.support-container {
+  background-color: #f0f0f0;
+  padding: 20px;
+  height: auto;
+  overflow: auto; /* Ensures no clipping */
+}
+
+/* Section styling with flexbox */
+.support-section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between; /* Keep elements aligned */
+}
+
+/* Handling gaps after folding for smaller screens */
+@media (max-width: 768px) {
+  .support-section {
+    flex-direction: column; /* Stacking elements vertically */
+    padding: 10px; /* Reduce padding for smaller screens */
+  }
+
+  .right-side, .left-side {
+    padding: 10px; /* Ensure consistent spacing */
+  }
+
+  .Dev-2 img {
+    width: 100%; /* Avoid overflow and gaps */
+    height: auto; /* Keep the aspect ratio */
+  }
+
+  /* Adjusting text alignment to reduce gaps */
+  .highlighted-p {
+    text-align: left; /* Align text for smaller screens */
+  }
+
+  /* Single-column grid for service items */
+  .service-items {
+    grid-template-columns: 1fr; /* No gaps with a single-column layout */
+  }
+}
+
+
+
+
+/* General container styling */
+.support-container {
+  background-color: #f0f0f0;
+  padding: 20px;
+  height: auto;
+  overflow: auto; /* Ensures no clipping */
+}
+
+/* Support section styling with flexbox */
+.support-section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between; /* Keep elements aligned */
+}
+
+/* Responsive design for smaller screens */
+@media (max-width: 768px) {
+  /* Adjust flex direction for smaller screens */
+  .support-section {
+    flex-direction: column; /* Stacking elements vertically */
+    padding: 10px; /* Reduce padding for smaller screens */
+  }
+
+  /* Ensure consistent spacing on smaller screens */
+  .right-side, .left-side {
+    padding: 10px;
+  }
+
+  /* Adjust image styling for smaller screens */
+  .Dev-2 img {
+    width: 100%; /* Avoid overflow and gaps */
+    height: auto; /* Keep the aspect ratio */
+    margin-bottom: 10px; /* Add spacing to avoid text-image overlap */
+  }
+
+  /* Text alignment for smaller screens */
+  .highlighted-p {
+    text-align: left; /* Align text for better readability */
+    margin-bottom: 10px; /* Add spacing between paragraphs */
+  }
+
+  /* Single-column grid for service items */
+  .service-items {
+    grid-template-columns: 1fr; /* No gaps with a single-column layout */
+  }
+
+  /* Adjust icon and text alignment */
+  .service-item {
+    flex-direction: row; /* Maintain row layout for consistency */
+  }
+}
